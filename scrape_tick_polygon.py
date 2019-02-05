@@ -13,13 +13,13 @@ from process_data_csv import nextDay
 folder_path = "C:\\Users\\Admin\\Desktop\\Week_2\\Intraday_quotes\\"
 
 def url_trades(ticker,date):
-    KEY = "CN3VkwU_c4C5_Q4_PXiLtsiio_YXMT0EFxiWZK"
+    KEY = ""
     supplement = "?limit=10000&apiKey="
     url = "https://api.polygon.io/v1/historic/" + "trades/" + ticker + "/" + date + supplement + KEY
     return url
     
 def url_quotes(ticker,date):
-    KEY = "CN3VkwU_c4C5_Q4_PXiLtsiio_YXMT0EFxiWZK"
+    KEY = ""
     supplement = "?limit=10000&apiKey="
     url = "https://api.polygon.io/v1/historic/" + "quotes/" + ticker + "/" + date + supplement + KEY
     return url
