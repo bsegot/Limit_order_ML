@@ -25,3 +25,5 @@ Conclusion:
 
 We get 75-80% accurate, which is pretty good but unsurprising. I also suspect non ML models based on momentum could achieve similar performances.
 
+
+Ps: the old joke "can you beat the VWap?" Still stands
