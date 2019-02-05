@@ -3,7 +3,7 @@
 Introduction:
 
 This project try to resove the problem of execution with low liquid stocks for intraday trading.
-Indeed sweeping the book is often several times more expensive than the transaction fee itself.
+Indeed sweeping the book is often several times more expensive than the fee of the broker itself.
 
 Consequently, we try to use machine learning to forecast the next order going through the book.
 
@@ -14,7 +14,7 @@ The data:
 
 ![](Pictures/Exemple_price_volume.png)
 
-I paid data from polygon.io and canceled tbe subscription right after during the free trial version
+I subscribed data from polygon.io and canceled tbe subscription right after during the free trial version
 
 -First 10k tick by tick orders of the stocks the day following the earning (related to the other project with earnings)
 
